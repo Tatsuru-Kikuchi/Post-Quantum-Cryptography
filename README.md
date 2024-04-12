@@ -253,12 +253,9 @@ liboqs is licensed under the MIT License; see [LICENSE.txt](https://github.com/o
 - `src/kex_sidh_iqc_ref`: MIT License
 - `src/sig_picnic`: MIT License
 
-Team
+
+Contributors
 ----
-
-The Open Quantum Safe project is lead by [Michele Mosca](http://faculty.iqc.uwaterloo.ca/mmosca/) (University of Waterloo) and [Douglas Stebila](https://www.douglas.stebila.ca/research/) (McMaster University).
-
-### Contributors
 
 - Tatsuru Kikuchi (The University of Tokyo)
 
