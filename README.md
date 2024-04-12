@@ -260,15 +260,5 @@ The Open Quantum Safe project is lead by [Michele Mosca](http://faculty.iqc.uwat
 
 ### Contributors
 
-- Javad Doliskani (University of Waterloo)
-- Vlad Gheorghiu (evolutionQ / University of Waterloo)
-- Tancrède Lepoint (SRI International)
-- Shravan Mishra (University of Waterloo)
-- Christian Paquin (Microsoft Research)
-- Alex Parent (University of Waterloo)
-- [John Underhill](https://github.com/Steppenwolfe65/CEX)
-- Sebastian Verschoor (University of Waterloo)
+- Tatsuru Kikuchi (The University of Tokyo)
 
-### Support
-
-Development of Open Quantum Safe has been supported in part by the Tutte Institute for Mathematics and Computing.  Research projects which developed specific components of Open Quantum Safe have been supported by various research grants; see the source papers for funding acknowledgments.
