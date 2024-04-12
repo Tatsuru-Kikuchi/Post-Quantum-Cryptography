@@ -1,0 +1,29 @@
+Determining if the memset_s exist failed with the following output:
+Change Dir: /home/user/liboqs/liboqs/build/CMakeFiles/CMakeScratch/TryCompile-iBh3z8
+
+Run Build Command(s):/bin/ninja cmTC_80512 && [1/2] Building C object CMakeFiles/cmTC_80512.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_80512.dir/CheckSymbolExists.c.o 
+/bin/cc   -fPIE -std=gnu11 -o CMakeFiles/cmTC_80512.dir/CheckSymbolExists.c.o -c /home/user/liboqs/liboqs/build/CMakeFiles/CMakeScratch/TryCompile-iBh3z8/CheckSymbolExists.c
+/home/user/liboqs/liboqs/build/CMakeFiles/CMakeScratch/TryCompile-iBh3z8/CheckSymbolExists.c: In function ‘main’:
+/home/user/liboqs/liboqs/build/CMakeFiles/CMakeScratch/TryCompile-iBh3z8/CheckSymbolExists.c:8:19: error: ‘memset_s’ undeclared (first use in this function); did you mean ‘memset’?
+    8 |   return ((int*)(&memset_s))[argc];
+      |                   ^~~~~~~~
+      |                   memset
+/home/user/liboqs/liboqs/build/CMakeFiles/CMakeScratch/TryCompile-iBh3z8/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset_s
+  return ((int*)(&memset_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
