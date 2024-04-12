@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+liboqs_python.egg-info/PKG-INFO
+liboqs_python.egg-info/SOURCES.txt
+liboqs_python.egg-info/dependency_links.txt
+liboqs_python.egg-info/requires.txt
+liboqs_python.egg-info/top_level.txt
+oqs/__init__.py
+oqs/oqs.py
+oqs/rand.py
