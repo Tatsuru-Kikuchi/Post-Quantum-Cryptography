@@ -226,13 +226,13 @@ Contributing and using
 
 We hope OQS will provide a framework for many post-quantum implementations.
 
-If you have or are writing an implementation of a post-quantum key exchange algorithm, we hope you will consider making an implementation that meets our API so that others may use it and would be happy to discuss including it directly in liboqs.  Please take a look at our [coding conventions](https://github.com/open-quantum-safe/liboqs/wiki/Coding-conventions) and our instructions for [integrating external implementations into liboqs](https://github.com/open-quantum-safe/liboqs/wiki/Integrating-external-implementations-into-liboqs).
+If you have or are writing an implementation of a post-quantum key exchange algorithm, we hope you will consider making an implementation that meets our API so that others may use it and would be happy to discuss including it directly in liboqs.
 
 If you would like to use liboqs in an application-level protocol, please get in touch and we can provide some guidance on options for using liboqs.
 
 We are also interested in assistance from code reviewers.
 
-Please contact Douglas Stebila <[stebilad@mcmaster.ca](mailto:stebilad@mcmaster.ca)>.
+Please contact Tatsuru Kikuchi <[tatsuru.kikuchi@e.u-tokyo.ac.jp](mailto:tatsuru.kikuchi@e.u-tokyo.ac.jp)>.
 
 License
 -------
