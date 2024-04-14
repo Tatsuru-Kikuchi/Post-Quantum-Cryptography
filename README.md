@@ -257,6 +257,6 @@ liboqs is licensed under the MIT License; see [LICENSE.txt](https://github.com/o
 Contributors
 ----
 
-- @Tatsuru-Kikuchi: Tatsuru Kikuchi (The University of Tokyo)
+- * Tatsuru Kikuchi (GitHub handle: [Tatsuru_Kikuchi](https://github.com/Tatsuru-Kikuchi)), Research Officer, Faculty of Economics, The University of Tokyo.
 
 - 
