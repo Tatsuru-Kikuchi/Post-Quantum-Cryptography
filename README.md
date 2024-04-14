@@ -32,8 +32,6 @@ liboqs currently contains:
 - `kex_ntru`: NTRU: key transport using NTRU public key encryption (Hoffstein, Pipher, Silverman, *ANTS 1998*) with the EES743EP1 parameter set, wrapper around the implementation from the NTRU Open Source project [https://github.com/NTRUOpenSourceProject/NTRUEncrypt](https://github.com/NTRUOpenSourceProject/NTRUEncrypt))
 - `sig_picnic`: signature based on zero-knowledge proof as specified in Post-Quantum Zero-Knowledge and Signatures from Symmetric-Key Primitives (Melissa Chase and David Derler and Steven Goldfeder and Claudio Orlandi and Sebastian Ramacher and Christian Rechberger and Daniel Slamanig and Greg Zaverucha, [https://eprint.iacr.org/2017/279.pdf](https://eprint.iacr.org/2017/279.pdf)), using the optimized implemenation from [https://github.com/IAIK/Picnic](https://github.com/IAIK/Picnic)
 
-Detailed information about each algorithm and implementations can be found in the [docs/Algorithm data sheets](https://github.com/open-quantum-safe/liboqs/tree/master/docs/Algorithm%20data%20sheets) directory.
-
 Building and Running on Linux and macOS
 ---------------------------------------
 
@@ -224,7 +222,7 @@ This will generate the `docs/doxygen/html` directory.  Check `./configure --help
 Contributing and using
 ----------------------
 
-We hope OQS will provide a framework for many post-quantum implementations.
+We hope QRL for XRL will provide a framework for delicering to the XRPL post-quantum implementations.
 
 If you have or are writing an implementation of a post-quantum key exchange algorithm, we hope you will consider making an implementation that meets our API so that others may use it and would be happy to discuss including it directly in liboqs.
 
@@ -237,7 +235,7 @@ Please contact Tatsuru Kikuchi <[tatsuru.kikuchi@e.u-tokyo.ac.jp](mailto:tatsuru
 License
 -------
 
-liboqs is licensed under the MIT License; see [LICENSE.txt](https://github.com/open-quantum-safe/liboqs/blob/master/LICENSE.txt) for details.  liboqs includes some third party libraries or modules that are licensed differently; the corresponding subfolder contains the license that applies in that case.  In particular:
+liboqs is licensed under the MIT License. liboqs includes some third party libraries or modules that are licensed differently; the corresponding subfolder contains the license that applies in that case.  In particular:
 
 - `src/crypto/aes/aes_c.c`: public domain
 - `src/crypto/rand_urandom_chacha20/external`: public domain
@@ -257,4 +255,4 @@ Contributors
 
 - * Tatsuru Kikuchi (GitHub handle: [Tatsuru_Kikuchi](https://github.com/Tatsuru-Kikuchi)), Research Officer, Faculty of Economics, The University of Tokyo.
 
-- 
+- Anyone are welcome to join!
