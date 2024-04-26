@@ -4,7 +4,7 @@
 Objectives
 ----------
 
-One of our main objectives is to provide easy prototyping of quantum-resistant ledger (QRL) protocol for XRP Ledger (XRPL). For the first phase of our project is to develop and deliver the quantum-resistant cryptographic service based on the side chain of XRP Ledger. Our aim to deliver the QRL is for delivering an ecosystem in the XRP Ledger with a great enhancement of cybersecurity.
+One of our main objectives is to provide easy prototyping of Post-Quantum cryptography (PQC) protocol for XRP Ledger (XRPL). For the first phase of our project is to develop and deliver the post-quantum cryptographic service based on the side chain of XRP Ledger. Our aim to deliver the PQC is for delivering an ecosystem in the XRP Ledger with a great enhancement of cybersecurity.
 
 If you have or are writing an implementation of a post-quantum key exchange algorithm, we hope you will consider making an implementation that meets our API so that others may use it and would be happy to discuss including it directly in liboqs.
 
@@ -15,18 +15,18 @@ We are also interested in assistance from code reviewers.
 liboqs
 ======
 
-liboqs is a C library for quantum-resistant cryptographic algorithms.
+liboqs is a C library for post-quantum cryptographic algorithms.
 
 Overview
 --------
 
-The **Quantum Resistant Ledger (QRL) for XRPL project** has the goal of developing and prototyping quantum-resistant cryptography.
+The **Post-Quantum Cryptography (PQC) for XRPL project** has the goal of developing and prototyping post-quantum cryptography.
 
-**liboqs** is an open source C library for quantum-resistant cryptographic algorithms.  liboqs initially focuses on key exchange algorithms.  liboqs provides a common API suitable for post-quantum key exchange algorithms, and will collect together various implementations.  liboqs will also include a test harness and benchmarking routines to compare performance of post-quantum implementations.
+**liboqs** is an open source C library for post-quantum cryptographic algorithms. liboqs initially focuses on key exchange algorithms. liboqs provides a common API suitable for post-quantum key exchange algorithms, and will collect together various implementations. liboqs will also include a test harness and benchmarking routines to compare performance of post-quantum implementations.
 
 QRL will also include integrations into application-level protocols to provide easy prototyping of quantum-resistant cryptography.  Our first integration is in OpenSSL:
 
-- **Quantum-Resistant-Ledger-for-XRPL/openssl** is an integration of liboqs into OpenSSL 1.0.2.  The goal of this integration is to provide easy prototyping of quantum-resistant ledger for XRPL.  The integration should not be considered "production quality". 
+- **Post-Quantum-Cryptography/openssl** is an integration of liboqs into OpenSSL 1.0.2.  The goal of this integration is to provide easy prototyping of quantum-resistant ledger for XRPL.  The integration should not be considered "production quality". 
 
 Contents
 --------
