@@ -1,17 +1,15 @@
 # liboqs-python: Python 3 bindings for liboqs
 
-[![GitHub actions](https://github.com/open-quantum-safe/liboqs-python/actions/workflows/python_simplified.yml/badge.svg)](https://github.com/open-quantum-safe/liboqs-python/actions)
-
 ---
 
 ## About
 
-The **Open Quantum Safe (OQS) project** has the goal of developing and
+The **Post Quantum Cryptography (PQC) project** has the goal of developing and
 prototyping quantum-resistant cryptography.
 
 **liboqs-python** offers a Python 3 wrapper for the
 [Open Quantum Safe](https://openquantumsafe.org/)
-[liboqs](https://github.com/open-quantum-safe/liboqs/)
+[liboqs](https://github.com/Tatsuru-Kikuchi/Post-Quantum-Cryptography/liboqs/)
 C library, which is a C library for quantum-resistant cryptographic algorithms.
 
 The wrapper is written in Python 3, hence in the following it is assumed that
@@ -32,7 +30,7 @@ The project contains the following files and directories:
 
 ## Pre-requisites
 
-- [liboqs](https://github.com/open-quantum-safe/liboqs)
+- [liboqs](https://github.com/Tatsuru-Kikuchi/Post-Quantum-Cryptography/liboqs/)
 - [git](https://git-scm.com/) version control system
 - [CMake](https://cmake.org/) build system
 - C compliant compiler,
@@ -182,7 +180,7 @@ set PYTHONPATH=%PYTHONPATH%;C:\path\to\liboqs-python
 ## Docker
 
 A self-explanatory minimalistic Docker file is provided in
-[`Dockerfile`](https://github.com/open-quantum-safe/liboqs-python/tree/main/Dockerfile).
+[`Dockerfile`](https://github.com/Tatsuru-Kikuchi/Post-Quantum-Cryptography/liboqs-python/tree/main/Dockerfile).
 
 Build the image by executing
 
@@ -210,7 +208,7 @@ docker run --rm -it --workdir=/app -v ${PWD}:/app oqs-python /bin/bash
 ```
 
 A more comprehensive Docker example is provided in the directory
-[`docker`](https://github.com/open-quantum-safe/liboqs-python/tree/main/docker).
+[`docker`](https://github.com/Tatsuru-Kikuchi/Post-Quantum-Cryptography/liboqs-python/tree/main/docker).
 
 ---
 
@@ -237,7 +235,7 @@ cryptography.
 
 Just like liboqs, liboqs-python is provided "as is", without warranty of any
 kind. See
-[LICENSE](https://github.com/open-quantum-safe/liboqs-python/blob/main/LICENSE)
+[LICENSE](https://github.com/Tatsuru-Kikuchi/Post-Quantum-Cryptography/liboqs-python/blob/main/LICENSE)
 for the full disclaimer.
 
 ---
@@ -245,7 +243,7 @@ for the full disclaimer.
 ## License
 
 liboqs-python is licensed under the MIT License; see
-[LICENSE](https://github.com/open-quantum-safe/liboqs-python/blob/main/LICENSE)
+[LICENSE](https://github.com/Tatsuru-Kikuchi/Post-Quantum-Cryptography/liboqs-python/blob/main/LICENSE)
 for details.
 
 ---
