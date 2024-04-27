@@ -8,7 +8,7 @@ The **Post Quantum Cryptography (PQC) project** has the goal of developing and
 prototyping quantum-resistant cryptography.
 
 **liboqs-python** offers a Python 3 wrapper for the
-[Open Quantum Safe](https://openquantumsafe.org/)
+[Post Quantum Cryptography](https://github.com/Tatsuru-Kikuchi/Post-Quantum-Cryptography/)
 [liboqs](https://github.com/Tatsuru-Kikuchi/Post-Quantum-Cryptography/liboqs/)
 C library, which is a C library for quantum-resistant cryptographic algorithms.
 
