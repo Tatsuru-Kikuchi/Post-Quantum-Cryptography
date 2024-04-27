@@ -1,7 +1,5 @@
 # liboqs-python: Python 3 bindings for liboqs
 
----
-
 ## About
 
 The **Post Quantum Cryptography (PQC) project** has the goal of developing and
@@ -47,7 +45,7 @@ The project contains the following files and directories:
 Execute in a Terminal/Console/Administrator Command Prompt
 
 ```shell
-git clone --depth=1 https://github.com/open-quantum-safe/liboqs
+git clone --depth=1 https://github.com/Tatsuru-Kikuchi/Post-Quantum-Cryptography/liboqs
 cmake -S liboqs -B liboqs/build -DBUILD_SHARED_LIBS=ON
 cmake --build liboqs/build --parallel 8
 cmake --build liboqs/build --target install
@@ -120,7 +118,7 @@ venv\Scripts\activate.bat
 Execute in a Terminal/Console/Administrator Command Prompt
 
 ```shell
-git clone --depth=1 https://github.com/open-quantum-safe/liboqs-python
+git clone --depth=1 https://github.com/Tatsuru-Kikuchi/Post-Quantum-Cryptography/liboqs-python
 cd liboqs-python
 pip install .
 ```
